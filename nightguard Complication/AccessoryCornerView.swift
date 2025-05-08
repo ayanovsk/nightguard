@@ -20,7 +20,7 @@ struct AccessoryCornerView : View {
             .foregroundColor(
                 Color(entry.bgdeltaColor))
         .widgetLabel {
-            Text("\(entry.sgv)" +
+            Text("\("M:" + (entry.sgv))" +
                  "\(entry.bgdeltaString)")
                     .foregroundColor(
                         Color(entry.sgvColor))

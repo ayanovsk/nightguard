@@ -17,6 +17,7 @@ struct NightscoutDataEntry: TimelineEntry {
     
     var sgv : String = "---"
     var sgvColor : UIColor = UIColor.white
+   // var sgvColor : UIColor = UIColor.nightguardGreen()
     // the delta Value in Display Units
     var bgdeltaString : String = "---"
     var bgdeltaColor : UIColor = UIColor.white

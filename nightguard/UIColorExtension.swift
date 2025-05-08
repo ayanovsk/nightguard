@@ -22,8 +22,11 @@ extension UIColor {
         return UIColor(red: 1.00, green: 0.74, blue: 0.01, alpha: 1.00)
     }
     
+   // static func nightguardGreen() -> UIColor {
+   //     return UIColor(red: 0.57, green: 0.79, blue: 0.23, alpha: 1.00)
+   // }
     static func nightguardGreen() -> UIColor {
-        return UIColor(red: 0.57, green: 0.79, blue: 0.23, alpha: 1.00)
+        return UIColor(red: 0.20, green: 0.46, blue: 0.73, alpha: 1.00)
     }
 
     static func nightguardContrastfulD1() -> UIColor {

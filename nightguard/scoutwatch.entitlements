@@ -12,9 +12,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.de.my-wan.dhe.nightguard</string>
+		<string>group.myyan.ayan.nightguardMat</string>
 	</array>
-    <key>com.apple.developer.usernotifications.critical-alerts</key>
-    <true/>
 </dict>
 </plist>

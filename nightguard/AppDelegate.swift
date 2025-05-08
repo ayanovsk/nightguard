@@ -15,7 +15,8 @@ import BackgroundTasks
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let appProcessingTaskId = "de.my-wan.dhe.nightguard.background"
+   // let appProcessingTaskId = "de.my-wan.dhe.nightguard.background"
+    let appProcessingTaskId = "myyan.ayan.nightguardMat.background"
     
     // Delegate Requests from the Watch to the WatchMessageService
     var session: WCSession? {

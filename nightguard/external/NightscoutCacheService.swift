@@ -14,7 +14,8 @@ class NightscoutCacheService: NSObject {
     
     static let singleton = NightscoutCacheService()
     
-    let serialQueue = DispatchQueue(label: "de.my-wan.dhe.nightscoutCacheServiceSerialQueue")
+   let serialQueue = DispatchQueue(label: "de.my-wan.dhe.nightscoutCacheServiceSerialQueue")
+   // let serialQueue = DispatchQueue(label: //"de.my-wan.dhe.nightscoutCacheServiceSerialQueue")
     
     var isEmpty: Bool {
         return yesterdaysBgData.isEmpty && todaysBgData.isEmpty
